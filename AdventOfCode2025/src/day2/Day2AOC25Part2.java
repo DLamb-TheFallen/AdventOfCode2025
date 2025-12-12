@@ -45,6 +45,9 @@ public class Day2AOC25Part2 {
         for (int i = 1; i <= digits / 2; i++){
             if (digits % i != 0) continue; // Can't be made up of divisions if it would not be evenly divided
 
+
+
+            // Could be pretty easily sped up, but it is late, and I am tired
             divisions = splitIntoPieces(num, i);
             divisionSet = new HashSet<>(divisions);
 
