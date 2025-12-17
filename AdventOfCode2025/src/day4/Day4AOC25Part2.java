@@ -108,7 +108,7 @@ public class Day4AOC25Part2 {
                 }
             }
 
-            System.out.println(Arrays.deepToString(charArray));
+            //System.out.println(Arrays.deepToString(charArray));
             System.out.printf("The number of accessible boxes is: %d%n", accessibleBoxes);
 
 
